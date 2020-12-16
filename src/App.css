@@ -1,9 +1,0 @@
-.App {
-  text-align: center;
-}
-
-.nav ol {
-  display: flex;
-  flex-direction: row;
-  justify-content: end;
-}
