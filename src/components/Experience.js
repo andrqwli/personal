@@ -1,10 +1,12 @@
 import React from 'react'
+import {Container, Row, Col} from 'react-bootstrap';
 
 export default function Experience() {
     return (
         <div className='page' id="exp">
-            This is the experience component
-            Put resume stuff here
+            <Container fluid>
+
+            </Container>
         </div>
     )
 }

@@ -16,6 +16,8 @@
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
+  color: white;
+  background-color: #74ceba;
 }
 
 .nav-item {
@@ -25,8 +27,71 @@
   color: black;
 }
 
+.navbar {
+  background-color: #74ceba;
+}
+
+a {
+  color: black;
+}
+
 .page {
   height: 100vh;
   width: 100%;
+  background-color: #74ceba;
+}
+
+.home {
+  background-color: #74ceba;
+}
+
+.img-container {
+  max-width: 80%;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 12px;
+}
+
+.col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+.container-fluid {
+  height: 100%;
+}
+
+.row {
+  height: 90%;
+}
+
+.textbox {
+  padding-left: 2em;
+  text-align: left;
+}
+
+.btn-outline-primary {
+  color: black;
+  border-color: black;
+}
+
+.btn-outline-primary:hover {
+  color: white;
+  background-color: black;
+  border-color: black;
 }
 /*# sourceMappingURL=App.css.map */
