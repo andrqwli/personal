@@ -8,10 +8,10 @@ export default function Header() {
                 <Nav.Link href='#home'>About</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-                <Nav.Link href='#projects'>Projects</Nav.Link>
+                <Nav.Link href='#exp'>Experience</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-                <Nav.Link href='#exp'>Experience</Nav.Link>
+                <Nav.Link href='#projects'>Projects</Nav.Link>
             </Nav.Item>
             <Nav.Item>
                 <Nav.Link href='#contact'>Contact</Nav.Link>

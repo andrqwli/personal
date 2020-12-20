@@ -1,6 +1,6 @@
 import React from 'react'
 import {Container, Row, Col} from 'react-bootstrap';
-import headshot from '../headshot.png';
+import headshot from '../media/headshot.png';
 import Button from 'react-bootstrap/Button';
 
 export default function Home() {
