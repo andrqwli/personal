@@ -6,10 +6,10 @@ import linkedin from '../media/linkedin.svg';
 
 export default function Contact() {
     return (
-        <div className="page project" id="contact">
-            <Container>
+        <div className="page" id="contact">
+            <Container fluid>
                 <Row id="contact">
-                    <Col xs className="contact">
+                    <Col className="contact" sm={6} xs={8}>
                         <h2>Get In Touch</h2>
                         <p>I'm currently looking for new opportunities! Whether you have any questions about my background, skills, or experience, or simply just want to say hi, feel free to reach out!</p>
                         <a href="mailto:andrqwli@live.unc.edu">

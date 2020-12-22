@@ -10,7 +10,7 @@ export default function Experience() {
         <div className='page' id="exp">
             <Container fluid>
                 <Row>
-                    <Col className="exp">
+                    <Col className="exp column" md={12} lg={6}>
                         <h3>Resume</h3>
                         <div className="resume">
                             <div className="ed">
@@ -29,7 +29,7 @@ export default function Experience() {
                             {Stem.map((obj) => <Coursework {...obj}/>)}
                         </div>    
                     </Col>
-                    <Col className="exp">
+                    <Col className="exp column" md={12} lg={6}>
                         <h3>COMP Courses</h3>
                         <div className="courses">
                             {Courses.map((obj) => <Coursework {...obj}/>)}

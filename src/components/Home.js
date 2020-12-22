@@ -5,10 +5,10 @@ import Button from 'react-bootstrap/Button';
 
 export default function Home() {
     return (
-        <div className="home page" id="home">
+        <div className="page" id="home">
             <Container fluid>
                 <Row>
-                    <Col>
+                    <Col className="column home" md={12} lg={6}>
                         <div className="textbox">
                             <h4>Hi, my name is</h4>
                             <h1>Andrew Li.</h1>
@@ -19,7 +19,7 @@ export default function Home() {
                             </a>
                         </div>
                     </Col>
-                    <Col>
+                    <Col className="column home-img" md={12} lg={6}>
                         <div className="img-container">
                             <img src={headshot} alt='headshot'/>
                         </div>
