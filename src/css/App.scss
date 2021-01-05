@@ -1,6 +1,6 @@
 $tablet: 768px;
 $desktop: 992px;
-//$xlarge: 1500px;
+$teal: rgb(116, 206, 186);
 
 @mixin tablet {
     @media (min-width: #{$tablet}) {
@@ -19,11 +19,6 @@ $desktop: 992px;
         @content;
     }
 }
-// @mixin xlarge {
-//     @media (min-width: #{$xlarge}) {
-//         @content;
-//     }
-// }
 
 .App {
     text-align: center;
@@ -34,8 +29,8 @@ $desktop: 992px;
     flex-direction: row;
     justify-content: right;
     align-items: flex-end;
-    color: white;
-    background-color: rgb(116, 206, 186);
+    color: black;
+    background-color: white;
 }
 
 .nav-item {
@@ -43,8 +38,16 @@ $desktop: 992px;
     color: black;
 }
 
+.nav-item:hover {
+    color: $teal;
+}
+
+a:hover {
+    color: $teal;
+}
+
 .navbar {
-    background-color: rgb(116, 206, 186); 
+    background-color: white; 
 }
 
 a {
@@ -53,7 +56,7 @@ a {
 .page {
     display: flex;
     width: 100%;
-    background-color: rgb(116, 206, 186);
+    background-color: white;
 
     @include desktop {
         min-height: 100vh;
@@ -152,8 +155,8 @@ img {
 
 .btn-outline-primary:hover {
     color: white;
-    background-color: black;
-    border-color: black;
+    background-color: $teal;
+    border-color: $teal;
 }
 
 .courses {
@@ -191,6 +194,9 @@ img {
 
 .project-card {
     border-radius: 12px;
+    border-style: solid;
+    border-color: $teal;
+    border-width: 2px;
     height: 100%;
     background-color: white;
     display: flex;
@@ -221,10 +227,6 @@ img {
     padding-top: .5em;
     padding-bottom: .5em;
     width: 100%;
-}
-
-.contact {
-
 }
 
 #contact {

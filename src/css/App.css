@@ -16,8 +16,8 @@
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  color: white;
-  background-color: #74ceba;
+  color: black;
+  background-color: white;
 }
 
 .nav-item {
@@ -27,8 +27,16 @@
   color: black;
 }
 
+.nav-item:hover {
+  color: #74ceba;
+}
+
+a:hover {
+  color: #74ceba;
+}
+
 .navbar {
-  background-color: #74ceba;
+  background-color: white;
 }
 
 a {
@@ -40,7 +48,7 @@ a {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  background-color: #74ceba;
+  background-color: white;
 }
 
 @media (min-width: 992px) {
@@ -179,8 +187,8 @@ img {
 
 .btn-outline-primary:hover {
   color: white;
-  background-color: black;
-  border-color: black;
+  background-color: #74ceba;
+  border-color: #74ceba;
 }
 
 .courses {
@@ -238,6 +246,9 @@ img {
 
 .project-card {
   border-radius: 12px;
+  border-style: solid;
+  border-color: #74ceba;
+  border-width: 2px;
   height: 100%;
   background-color: white;
   display: -webkit-box;
