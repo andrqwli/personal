@@ -5,6 +5,27 @@ import twitter from '../media/twitter.png';
 
 export const Courses = [
     {
+        courseCode: "COMP 530",
+        courseName: "Operating Systems",
+        courseSem: "Fall 2021",
+        prof: "Brent Munsell",
+        desc: "Types of operating systems. Concurrent programming. Management of storage, processes, devices. Scheduling, protection. Case study. Course includes a programming laboratory."
+    }, 
+    {
+        courseCode: "COMP 524",
+        courseName: "Programming Languages",
+        courseSem: "Fall 2021",
+        prof: "Prasun Dewan",
+        desc: "Concepts of high-level programming and their realization in specific languages. Data types, scope, control structures, procedural abstraction, classes, concurrency. Run-time implementation."
+    }, 
+    {
+        courseCode: "COMP 555",
+        courseName: "Bioalgorithms",
+        courseSem: "Spring 2021",
+        prof: "Leonard McMillan",
+        desc: "Bioinformatics algorithms. Topics include DNA restriction mapping, finding regulatory motifs, genome rearrangements, sequence alignments, gene prediction, graph algorithms, DNA sequencing, protein sequencing, combinatorial pattern matching, approximate pattern matching, clustering and evolution, tree construction, Hidden Markov Models, randomized algorithms."
+    }, 
+    {
         courseCode: "COMP 521",
         courseName: "Files and Databases",
         courseSem: "Fall 2020",
@@ -80,6 +101,11 @@ export const Stem = [
 ]
 
 export const Work = [
+    {
+        company: "Secmation",
+        title: "Software Developer Intern",
+        time: "June 2021 - August 2021"
+    },
     {
         company: "Freelance",
         title: "Software Developer",
