@@ -34,7 +34,7 @@ export default function Experience() {
                         <div className="courses">
                             {Courses.map((obj) => <Coursework {...obj}/>)}
                         </div>
-                        <a href={resume}>
+                        <a href={resume} without rel="noopener noreferrer" target="_blank">
                             <Button variant="outline-primary">View Resume</Button>
                         </a>
                     </Col>
