@@ -11,6 +11,9 @@ export default function Header() {
                 <Nav.Link href='#exp'>Experience</Nav.Link>
             </Nav.Item>
             <Nav.Item>
+                <Nav.Link href='#research'>Research</Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
                 <Nav.Link href='#projects'>Projects</Nav.Link>
             </Nav.Item>
             <Nav.Item>
