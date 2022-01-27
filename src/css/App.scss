@@ -182,7 +182,11 @@ img {
 }
 
 .research {
-    width: 100%;
+    width: 75%;
+    text-align: left;
+    h3 {
+        align-items: left;
+    }
 }
 
 .projects {
@@ -235,4 +239,15 @@ img {
 
 #contact {
     justify-content: center;
+}
+
+.LogEntry {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 1em 0 1em 0;
+}
+
+.resources {
+    padding-left: 1em;
 }

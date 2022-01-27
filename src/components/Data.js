@@ -153,3 +153,43 @@ export const Proj = [
         repo: "https://github.com/andrqwli/COMP426/tree/master/a09"
     }
 ]
+
+export const LogData =  [
+    {
+        meetingDate: "1/20/2022",
+        workSummary: "Read about and took notes on Abstract Syntax Trees this week. Attempting to determine if using the structure of each program's AST will be better than just the source code for pattern matching purposes by our ML program. Played around with AST parsers to better understand how they're built and parsed. Updated website formatting as well.",
+        resourceList: [
+            {
+                title: "Abstract Syntax Tree Notes - Resources are hyperlinked in document",
+                link: "https://docs.google.com/document/d/18ZJZEnuYZlLyBRaAz7BXXcFMu8ZR0qWXkU-yv_6Cn8g/edit?usp=sharing"
+            }
+        ]
+    },
+    {
+        meetingDate: "1/11/2022",
+        workSummary: "Read and compiled a list of introductory resources on knowledge graphs. Determined that knowledge graphs may not be most suitable for our use case, as they benefit from large datasets and are able to connect many different entities together with different types of relationships. The structured nature of our data (source code) doesn't lend itself to KG use.",
+        resourceList: [
+            {
+                title: "What is a Knowledge Graph - Ontotext",
+                link: "https://www.ontotext.com/knowledgehub/fundamentals/what-is-a-knowledge-graph/"
+            },
+            {
+                title: "A Data Engineer's Guide To Semantic Modelling",
+                link: "https://zenodo.org/record/3898519"
+            },
+            {
+                title: "Github Repository with Knowledge Graph Resources",
+                link: "https://github.com/turing-knowledge-graphs/teaching/blob/main/city/ReadingList.md"
+            },
+            {
+                title: "Github Repository with SWT&KG Course",
+                link: "https://github.com/turing-knowledge-graphs/teaching/tree/main/city"
+            },
+            {
+                title: "MonkeyLearn - Text classification product/service",
+                link: "https://monkeylearn.com/text-classification/"
+            },
+        ]
+    },
+    
+]
