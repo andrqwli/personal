@@ -157,11 +157,15 @@ export const Proj = [
 export const LogData =  [
     {
         meetingDate: "1/20/2022",
-        workSummary: "Read about and took notes on Abstract Syntax Trees this week. Attempting to determine if using the structure of each program's AST will be better than just the source code for pattern matching purposes by our ML program. Played around with AST parsers to better understand how they're built and parsed. Updated website formatting as well.",
+        workSummary: "Read about and took notes on Abstract Syntax Trees this week. Attempting to determine if using the structure of each program's AST will be better than just the source code for pattern matching purposes by our ML program. Played around with AST parsers to better understand how they're built and parsed. Updated website formatting as well. Also explored some pattern matching resources and ML packages.",
         resourceList: [
             {
                 title: "Abstract Syntax Tree Notes - Resources are hyperlinked in document",
                 link: "https://docs.google.com/document/d/18ZJZEnuYZlLyBRaAz7BXXcFMu8ZR0qWXkU-yv_6Cn8g/edit?usp=sharing"
+            },
+            {
+                title: "AST Pattern Matching Lodash library",
+                link: "http://nene.github.io/2016/04/02/matches-ast",
             }
         ]
     },
