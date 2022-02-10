@@ -156,6 +156,16 @@ export const Proj = [
 
 export const LogData =  [
     {
+        meetingDate: "2/1/2022",
+        workSummary: "Processed .bson files with MongoDB, then exported problem and submission data to json. Wrote some functions to process data into json arrays, and then into readable json arrays and json maps.",
+        resourceList:[
+            {
+                title: "GitHub Repo",
+                link: "https://github.com/andrqwli/COMP495"
+            }
+        ]
+    },
+    {
         meetingDate: "1/20/2022",
         workSummary: "Read about and took notes on Abstract Syntax Trees this week. Attempting to determine if using the structure of each program's AST will be better than just the source code for pattern matching purposes by our ML program. Played around with AST parsers to better understand how they're built and parsed. Updated website formatting as well. Also explored some pattern matching resources and ML packages.",
         resourceList: [
