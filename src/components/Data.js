@@ -156,6 +156,20 @@ export const Proj = [
 
 export const LogData =  [
     {
+        meetingDate: "2/10/2022",
+        workSummary: "Filtered the problem data set by problems that had one input for simplicity, then sorted each of the submissions to the single input problems into correct and incorrect submissions. Chose two problems with many submissions (mostly incorrect) to analyze, and began brainstorming facts to analyze for ML purposes. Researched the list of ML packages/tools and noted thoughts on use case appropriateness.",
+        resourceList: [
+            {
+                title: "Github Repo",
+                link: "https://github.com/andrqwli/COMP495",
+            },
+            {
+                title: "Research Notes",
+                link: "https://docs.google.com/document/d/18ZJZEnuYZlLyBRaAz7BXXcFMu8ZR0qWXkU-yv_6Cn8g/edit"
+            }
+        ]
+    },
+    {
         meetingDate: "2/1/2022",
         workSummary: "Processed .bson files with MongoDB, then exported problem and submission data to json. Wrote some functions to process data into json arrays, and then into readable json arrays and json maps.",
         resourceList:[
