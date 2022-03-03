@@ -156,6 +156,24 @@ export const Proj = [
 
 export const LogData =  [
     {
+        meetingDate: "2/17/2022",
+        workSummary: "Created the pcan.js package to collect facts from submission source code. Began with collecting universal facts such as number of alert statements, number of for loops initializations, etc. (5 total). Began adding problem specific methods for the fizzbuzz array problem to collect facts that could inform an unsupervised learning ML algorithm on what kind of issue is causing the submission to be incorrect. Also completed the linked k-means tutorial.",
+        resourceList: [
+            {
+                title: "K-Means Tutorial",
+                link: "https://cloudacademy.com/course/module-6-unsupervised-learning/k-means-clustering/?utm_term=&utm_campaign=&utm_source=adwords&utm_medium=ppc&hsa_acc=5890858304&hsa_cam=12050150150&hsa_grp=115060577886&hsa_ad=547353207035&hsa_src=s&hsa_tgt=dsa-19959388920&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gclid=EAIaIQobChMIqujrjOuJ9gIVIR-tBh3szwDDEAAYAiAAEgJT3fD_BwE",
+            },
+            {
+                title: "Github Repo",
+                link: "https://github.com/andrqwli/COMP495",
+            },
+            {
+                title: "Research Notes",
+                link: "https://docs.google.com/document/d/18ZJZEnuYZlLyBRaAz7BXXcFMu8ZR0qWXkU-yv_6Cn8g/edit"
+            }
+        ]
+    },
+    {
         meetingDate: "2/10/2022",
         workSummary: "Filtered the problem data set by problems that had one input for simplicity, then sorted each of the submissions to the single input problems into correct and incorrect submissions. Chose two problems with many submissions (mostly incorrect) to analyze, and began brainstorming facts to analyze for ML purposes. Researched the list of ML packages/tools and noted thoughts on use case appropriateness.",
         resourceList: [
