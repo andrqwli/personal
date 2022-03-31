@@ -156,6 +156,16 @@ export const Proj = [
 
 export const LogData =  [
     {
+        meetingDate: "3/3/2022",
+        workSummary: "Added more problem specific facts for the fizzbuzz problem to be analyzed in the future. Took 3 more data sets from other semesters and processed the data to be in the same format to be converted to ASTs and parsed. If the first semester analyzed is training data, the other 3 can be used to test functionality.",
+        resourceList: [
+            {
+                title: "Github Repo",
+                link: "https://github.com/andrqwli/COMP495",
+            }
+        ]
+    },
+    {
         meetingDate: "2/17/2022",
         workSummary: "Created the pcan.js package to collect facts from submission source code. Began with collecting universal facts such as number of alert statements, number of for loops initializations, etc. (5 total). Began adding problem specific methods for the fizzbuzz array problem to collect facts that could inform an unsupervised learning ML algorithm on what kind of issue is causing the submission to be incorrect. Also completed the linked k-means tutorial.",
         resourceList: [
