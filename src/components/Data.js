@@ -156,6 +156,16 @@ export const Proj = [
 
 export const LogData =  [
     {
+        meetingDate: "3/31/2022",
+        workSummary: "Researching ML packages to apply to our list of facts. Given a list of packages, trying to discern the strengths and weaknesses of Ridge, Lasso, and Elastic Net regression techniques for our use case. At the moment, Ridge seems to be more appropriate than Lasso given the specificity of variable (fact) selection.",
+        resourceList: [
+            {
+                title: "Ridge vs Lasso Analysis/Explanation",
+                link: "https://www.youtube.com/watch?v=NGf0voTMlcs",
+            }
+        ]
+    },
+    {
         meetingDate: "3/3/2022",
         workSummary: "Added more problem specific facts for the fizzbuzz problem to be analyzed in the future. Took 3 more data sets from other semesters and processed the data to be in the same format to be converted to ASTs and parsed. If the first semester analyzed is training data, the other 3 can be used to test functionality.",
         resourceList: [
