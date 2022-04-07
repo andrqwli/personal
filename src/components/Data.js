@@ -166,6 +166,10 @@ export const LogData =  [
             {
                 title: "Elastic Net Regression Analysis/Explanation",
                 link: "https://www.youtube.com/watch?v=1dKRdX9bfIo",
+            },
+            {
+                title: "K-Means clustering JS Package",
+                link: "https://github.com/mljs/kmeans",
             }
         ]
     },
