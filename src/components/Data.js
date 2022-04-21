@@ -156,6 +156,16 @@ export const Proj = [
 
 export const LogData =  [
     {
+        meetingDate: "4/7/2022",
+        workSummary: "Added new fact property in array form for each submission, then aggregated all fact arrays into one 2-d array to be passed into the K-Means function from the package found last week. Results stored in kmeansResult.json Also updating README.md", 
+        resourceList: [
+            {
+                title: "Github Repo",
+                link: "https://github.com/andrqwli/COMP495",
+            }
+        ]
+    },
+    {
         meetingDate: "3/31/2022",
         workSummary: "Researching ML packages to apply to our list of facts. Given a list of packages, trying to discern the strengths and weaknesses of Ridge, Lasso, and Elastic Net regression techniques for our use case. At the moment, Ridge seems to be more appropriate than Lasso/Elastic Net given the specificity of variable (fact) selection.",
         resourceList: [
